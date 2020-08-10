@@ -1,0 +1,113 @@
+<!doctype html>
+<html><!-- InstanceBegin template="/Templates/WebTemplate.dwt" codeOutsideHTMLIsLocked="false" -->
+<head>
+<meta charset="utf-8">
+<!-- InstanceBeginEditable name="doctitle" -->
+<title>Untitled Document</title>
+<!-- InstanceEndEditable -->
+<link href="../cssstyles.css" rel="stylesheet" type="text/css">
+<!--The following script tag downloads a font from the Adobe Edge Web Fonts server for use within the web page. We recommend that you do not modify it.-->
+<script>var __adobewebfontsappname__="dreamweaver"</script>
+<script src="http://use.edgefonts.net/corben:n4:default;arvo:n4:default;actor:n4:default;pt-sans-narrow:n4:default.js" type="text/javascript"></script>
+<!-- InstanceBeginEditable name="head" -->
+<!-- InstanceEndEditable -->
+</head>
+
+<body>
+<div id="MainContainer">
+<div id="Header">
+ 
+	
+  <div id="Navigation">
+  <ul id="TopNav" class="">
+  	<li><img src="../Images/logo.png" class="Logo" alt=""/></li>
+  	<li class="tabs"><a href="home.html">Home</a></li>
+  	<li class="tabs"><a href="about.html">About Us</a></li>
+  	<li class="tabs"><a href="gallery.html">Gallery</a></li>
+  	<li class="tabs"><a href="ContactUs.html">Contact Us</a></li>
+  	<li class="tabs"><a href="Useful%20Resources.html">Useful Resources</a></li>
+  	<li class="icon"><a href="javascript:void(0);" style="font-size:15px;" onclick="myFunction()">&#9776;</a></li>
+  	</ul>
+  </div>
+ <script>
+function myFunction() {
+    var x = document.getElementById("TopNav");
+    if (x.className === "responsive") {
+        x.className = "";
+    } else {
+        x.className = "responsive";
+    }
+}
+</script>
+	</div>
+  </div>
+<!-- InstanceBeginEditable name="EditableRegion" -->
+<div id="Banner1">
+		<img src="../Images/images.png" width="1000" height="250" alt=""/></div>
+<div id="container">
+   <h2>Contact Us</h2>
+   <p>Contact us about anything related to our company or services <br><br>
+
+We'll do our best to get back to you as soon as possible.
+   </p>
+    <form>
+    <div id="table1">
+    	<table width="457" height="199" border="0">
+  <tbody>
+    <tr>
+      <td>Your Name</td>
+      <td width="257"><input type="text" name="textfield" id="textfield"></td>
+    </tr>
+    <tr>
+      <td>Phone Number</td>
+      <td><label for="textfield2"></label>
+        <input type="text" name="textfield2" id="textfield2"></td>
+    </tr>
+    <tr>
+      <td>Email</td>
+      <td><label for="email"></label>
+        <input name="email" type="email" id="email" placeholder="myname@example.com"></td>
+    </tr>
+    <tr>
+      <td>Your Question</td>
+      <td><textarea name="textarea" id="textarea"></textarea></td>
+    </tr>
+    <tr>
+      <td>&nbsp;</td>
+      <td><input type="submit" name="submit" id="submit" value="Submit"></td>
+    </tr>
+  </tbody>
+		</table></div>
+
+    </form>
+    
+
+<div id="map"></div>
+    <script>
+      function initMap() {
+        var uos = {lat: 25.301 , lng: 55.482};
+        var map = new google.maps.Map(document.getElementById('map'), {
+          zoom: 15,
+          center: uos
+        });
+        var marker = new google.maps.Marker({
+          position: uos,
+          map: map
+        });
+      }
+    </script>
+    <script async defer
+    src="https://maps.googleapis.com/maps/api/js?key=AIzaSyAZ5qoPlSUhT4BbzRikUeknOPBLEdV0SsA&callback=initMap">
+	</script></div>
+	<footer>
+	&copy; 2017 All Rights Reserved
+	<div id="logos">
+    <a href="https://www.facebook.com/"><img src="../Images/Facebook logo.png" style="width: 4%;" alt=""/> </a>
+		<a href="https://www.twitter.com"><img src="../Images/twitter logo.png" alt="" style="width: 4%;"/> </a>
+   <a href="https://www.instagram.com"> <img src="../Images/instagram logo.png" alt="" style="width: 4%;"/></a> </div>
+</footer>
+<!-- InstanceEndEditable --></div>
+
+
+</body>
+<!-- InstanceEnd --></html>
